@@ -3,7 +3,7 @@
 A dark theme for [Nova](https://nova.app/) with great colors.
 The theme has been tested so far with HTML, CSS, SCSS, JavaScript and PHP.
 
-![alt text](https://github.com/perfectoweb/PerfectDark-Nova-Theme/raw/master/preview.png)
+![alt text](https://github.com/PerfectoWeb/PerfectDark-Nova-Theme/raw/master/example_preview.png)
 
 ## Installation
 
