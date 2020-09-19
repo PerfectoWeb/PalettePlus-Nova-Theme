@@ -2,9 +2,9 @@
 
 A dark theme for [Nova](https://nova.app/) with great colors.
 
-The theme has been tested so far with HTML, CSS, SCSS, JavaScript and PHP.
-
 ![Perfect Dark theme for Nova](https://github.com/PerfectoWeb/PerfectDark-Nova-Theme/raw/master/example_preview.png)
+
+The theme has been tested so far with HTML, CSS, SCSS, JavaScript and PHP.
 
 ## Colors
 A successful digital product relies heavily on the colors chosen for its UI.
