@@ -1,3 +1,9 @@
+## Version 1.2
+
+- A different colors between JavaScript Core and own functions added
+- Corrected the colors of JavaScript `null`
+- Corrected colors of css/scss variables
+
 ## Version 1.1
 
 - Added Terminal theme

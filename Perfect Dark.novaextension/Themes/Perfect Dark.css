@@ -199,11 +199,10 @@ identifier.method {
     color: #65C8F0; /* functions inside classes */
 }
 identifier.function {
-    color: #65C8F0; /* any function */
+    color: #65C8F0; /* like: js your_func(); */
 }
 identifier.core.function {
-    color: blue;
-    background: yellow;
+    color: #65C8F0; /* like: js parseInt(); */
 }
 identifier.key {
     color: #FDD46B;
@@ -331,7 +330,8 @@ style.selector.pseudoelement {
 style.selector.operator {
     color: #FFFFFF; /* . # *  */
 }
-style.attribute.name {
+style.attribute.name,
+scss.attribute.name {
     color: #FDD46B; /* text-decoration */
 }
 style.attribute.value {
@@ -371,11 +371,17 @@ style.at-rule {
 }
 
 
-/* PHP */
-php.identifier.value.null {
-  /* example of syntax */
-}
 
+/* JavaScript */
+javascript.identifier.function {
+    color: #FDD46B; /* own functions */
+}
+javascript.identifier.core.function {
+    color: #65C8F0; /* core functions */
+}
+javascript.value.null {
+    color: #996FE3;
+}
 
 /* Python */
 python.identifier.argument.name {
@@ -395,7 +401,6 @@ terminal.yellow {
 }
 terminal.blue {
   color: #a178e7;
-  background: blue;
 }
 terminal.magenta {
   color: #996FE3; 
@@ -405,5 +410,4 @@ terminal.cyan {
 }
 terminal.white {
   color: #FFFFFF;
-  background: red;
 }
