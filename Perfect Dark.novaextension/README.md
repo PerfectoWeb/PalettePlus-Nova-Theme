@@ -18,7 +18,7 @@ If that doesn't work, just clone this project (or download it from the releases 
 
 ## Disclaimer
 
+[Nova](https://panic.com/nova) is the new editor from [Panic Inc](https://panic.com).
+
 Thanks for your choice!
 If you’d like to get more user friendly projects, make sure to give me a star! ☺️
-
-[Nova](https://panic.com/nova) is the new editor from [Panic Inc](https://panic.com).

@@ -1,7 +1,7 @@
 /* 
-	colors
-	-------------------
-    color: white;			// white
+    colors
+    -------------------
+    color: #FFFFFF;			// white
     color: #131d2a;			// dark blue (shade 3)
     color: #28344B;			// dark blue (shade 2)
     color: #414D64; 		// dark blue (shade 1)
@@ -15,6 +15,8 @@
     color: #F08261; 		// red
     color: #FDD46B; 		// yellow
     color: #B8E97B; 		// light yellow 
+    color: #8cb369; 		// green
+    color: #0FF2F2; 		// Cyan
 
     ---
     PS: comments below for future updates =)
@@ -23,7 +25,7 @@
 meta {
     -theme-interface-style: dark;
     -theme-vibrancy: none;
-    -theme-accent-color: false;
+    -theme-accent-color: true;
 }
 
 
@@ -31,11 +33,10 @@ meta {
  * Window styles
  */
 meta.window {
-    background-color: #a178e7;
     background-color: #131d2a;
 }
 meta.titlebar {
-    color: white;
+    color: #FFFFFF;
     border-color: #414D64;
     background-color: #131d2a;
 }
@@ -46,17 +47,17 @@ meta.titlebar.inactive {
 meta.button {
     background-color: #28344B;
     border-color: #414D64;
-    color: white;
+    color: #FFFFFF;
 }
 meta.button.highlighted {
     background-color: #FDD46B;
     color: #131d2a;
 }
 meta.button.selected {
-    color: white;
+    color: #FFFFFF;
 }
 meta.button.highlighted.selected {
-    color: white;
+    color: #FFFFFF;
 }
 meta.button.disabled {
     background: #28344B;
@@ -91,13 +92,13 @@ meta.document.textfield {
 
 /* Text */
 meta.text {
-    color: white;
+    color: #FFFFFF;
 }
 meta.text.invisible {
     color: #414D64;
 }
 meta.text.selected {
-    color: white;
+    color: #FFFFFF;
     background-color: #28344B;
 }
 
@@ -108,7 +109,7 @@ meta.cursor {
 
 /* Indentation Guides */
 meta.indentguide {
-    border-color: #414D64;
+    border-color: #28344B;
 }
 /* Gutter */
 meta.gutter {
@@ -117,7 +118,7 @@ meta.gutter {
 }
 meta.gutter.selected {
     background-color: #28344B;
-    color: white;
+    color: #FFFFFF;
 }
 
 
@@ -138,7 +139,7 @@ declaration {
     color: #FFF;
 }
 bracket {
-    color: white;
+    color: #FFFFFF;
 }
 operator {
     color: #BAC2D6; /* +  - , . */
@@ -170,15 +171,14 @@ value.symbol {
 
 /* Identifiers */
 identifier.type {
-	color: #B8E97B;
-	color: #DDE2Ef;
-	font-weight: bold;
+    color: #DDE2Ef;
+    font-weight: bold;
 }
 identifier.type.null {
-	color: #996FE3
+    color: #996FE3
 }
 identifier.type.value.null {
-	color: #DA4551
+    color: #DA4551
 }
 identifier.constant {
     /* unknown */
@@ -199,13 +199,17 @@ identifier.method {
     color: #65C8F0; /* functions inside classes */
 }
 identifier.function {
-    color: #65C8F0; /* any function: global or unknown */
+    color: #65C8F0; /* any function */
+}
+identifier.core.function {
+    color: blue;
+    background: yellow;
 }
 identifier.key {
     color: #FDD46B;
 }
 identifier.argument {
-	font-style: italic;
+    font-style: italic;
     color: #BAC2D6; /* function arguments */
 }
 
@@ -229,7 +233,7 @@ regex.escaped {
     color: #B8E97B;
 }
 cdata {
-    color: #FDD46B;
+    color: #996FE3;
 }
 
 /* Markup */
@@ -257,7 +261,7 @@ markup.list.item {
 markup.code {
     border-radius: 4px;
     background-color: #28344B;
-    border-color: white;
+    border-color: #FFFFFF;
 }
 
 /* Types */
@@ -283,7 +287,7 @@ tag {
     color: #FFF;
 }
 tag.framework {
-    color: #996FE3; /* ковычки */
+    color: #996FE3; /* quotes */
 }
 tag.attribute.value {
     color: #d6f48f;
@@ -319,22 +323,22 @@ style.selector.pseudoclass {
     color: #65C8F0; /* :hover */
 }
 style.selector.pseudoclass.not {
-	/* color: #DA4551; */
+    /* color: #DA4551; */
 }
 style.selector.pseudoelement {
     color: #65C8F0; /* :after */
 }
 style.selector.operator {
-	color: #FFFFFF; /* . # *  */
+    color: #FFFFFF; /* . # *  */
 }
 style.attribute.name {
     color: #FDD46B; /* text-decoration */
 }
 style.attribute.value {
-	color: #fff;
+    color: #fff;
 }
 style.value {
-	color: #FFFFFF; /* antialiased, Flaticon, device-width */
+    color: #FFFFFF; /* antialiased, Flaticon, device-width */
 }
 style.value.number {
     color: #996FE3; /* 20px, 0.2s */
@@ -349,19 +353,57 @@ style.value.color.named {
     color: #65C8F0; /* transparent, scrollbar */
 }
 style.value.bracket {
-	color: #FFFFFF; /* ( ) */
+    color: #FFFFFF; /* ( ) */
 }
 style.value.keyword.format,
 style.value.keyword.url {
-	color: #65C8F0;
+    color: #65C8F0;
 }
 style.value.keyword.important,
 style.value.keyword.default {
     color: #DA4551;
 }
 style.attribute-list.bracket {
-	color: #FFF; /* { } */
+    color: #FFF; /* { } */
 }
 style.at-rule {
-	color: #DA4551;
+    color: #DA4551;
+}
+
+
+/* PHP */
+php.identifier.value.null {
+  /* example of syntax */
+}
+
+
+/* Python */
+python.identifier.argument.name {
+  color: #FDD46B;
+}
+
+
+/* Terminal */
+terminal.red {
+  color: #F08261;
+}
+terminal.green {
+  color: #8cb369;
+}
+terminal.yellow {
+  color: #FDD46B;
+}
+terminal.blue {
+  color: #a178e7;
+  background: blue;
+}
+terminal.magenta {
+  color: #996FE3; 
+}
+terminal.cyan {
+  color: #0FF2F2;
+}
+terminal.white {
+  color: #FFFFFF;
+  background: red;
 }
