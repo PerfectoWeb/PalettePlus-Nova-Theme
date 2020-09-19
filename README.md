@@ -7,6 +7,7 @@ The theme has been tested so far with HTML, CSS, SCSS, JavaScript and PHP.
 
 ## Colors
 A successful digital product relies heavily on the colors chosen for its UI.
+
 A family of four clean and eyes friendly color for your new IDE.
 ![Four cute colors for Panic Nova Theme](https://github.com/PerfectoWeb/PerfectDark-Nova-Theme/raw/master/example_colors.png)
 
@@ -19,6 +20,6 @@ If that doesn't work, just clone this project (or download it from the releases 
 ## Disclaimer
 
 Thanks for your choice!
-If you’d like to get more user friendly projects, make sure to follow me!
+If you’d like to get more user friendly projects, make sure to give me a star! ☺️
 
 [Nova](https://panic.com/nova) is the new editor from [Panic Inc](https://panic.com).
