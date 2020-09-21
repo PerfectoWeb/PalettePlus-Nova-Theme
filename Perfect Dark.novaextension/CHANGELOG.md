@@ -1,3 +1,7 @@
+## Version 1.3.2
+
+- Fix bugs
+
 ## Version 1.3.1
 
 - Different colors were added for PHP core and own functions.

@@ -6,10 +6,9 @@
   "description": "A dark theme for Nova with clean and cute colors.",
   "version": "1.3.2",
   "categories": ["themes"],
-  "homepage": "https://github.com/PerfectoWeb/PerfectDark-Nova-Theme/",
+  "repository": "https://github.com/PerfectoWeb/nova-perfectdark-theme",
+  "homepage": "https://perfecto-web.com/?utm_campaign=open_source&utm_source=Nova&utm_medium=market",
+  "bugs": "https://github.com/PerfectoWeb/nova-perfectdark-theme/issues",
   "license": "MIT",
-  "keywords": ["dark", "html", "php", "css", "javascript", "ssh"],
-  "bugs": {
-    "email": "manager@perfecto-web.com"
-  }
+  "keywords": ["dark", "html", "php", "css", "javascript", "ssh"]
 }
