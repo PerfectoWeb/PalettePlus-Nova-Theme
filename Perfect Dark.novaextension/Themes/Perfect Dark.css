@@ -399,6 +399,17 @@ javascript.value.null {
     color: #996FE3;
 }
 
+/* PHP */
+php.identifier.function {
+    color: #FDD46B; /* own functions */
+}
+php.identifier.core.function {
+    color: #65C8F0; /* core functions */
+}
+php.keyword {	
+}
+
+
 /* Python */
 python.identifier.argument.name {
   color: #FDD46B;
@@ -406,24 +417,31 @@ python.identifier.argument.name {
 
 
 /* Terminal */
-terminal.red {
+terminal.red,
+terminal.bright-red {
   color: #F08261;
 }
-terminal.green {
+terminal.green,
+terminal.bright-green {
   color: #8cb369;
 }
-terminal.yellow {
+terminal.yellow,
+terminal.bright-yellow {
   color: #FDD46B;
 }
-terminal.blue {
+terminal.blue,
+terminal.bright-blue {
   color: #a178e7;
 }
-terminal.magenta {
+terminal.magenta,
+terminal.bright-magenta {
   color: #996FE3; 
 }
-terminal.cyan {
+terminal.cyan,
+terminal.bright-cyan {
   color: #0FF2F2;
 }
-terminal.white {
+terminal.white,
+terminal.bright-white {
   color: #FFFFFF;
 }

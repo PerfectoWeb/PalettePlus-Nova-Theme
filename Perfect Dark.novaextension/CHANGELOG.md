@@ -1,3 +1,8 @@
+## Version 1.3.1
+
+- Different colors were added for PHP core and own functions.
+- Added bright colors for terminal theme
+
 ## Version 1.3
 
 - Added theme for XML files
