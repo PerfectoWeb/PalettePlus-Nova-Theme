@@ -294,14 +294,30 @@ tag.attribute.value {
 tag.attribute.value.link {
     color: #65c8f0;
 }
+tag.attribute.name {
+    color: #F6CF4F;
+}
 html.tag {
     color: #737988; /* < > */
 }
 html.tag.name {
     color: #DA4551; /* <meta> <br> */
 }
-tag.attribute.name {
-    color: #F6CF4F;
+html.tag.attribute.name {
+  color: #FDD46B;
+}
+
+/* XML */
+xml.tag {
+  color: #DA4551;
+}
+xml.tag.name {
+}
+xml.tag.attribute.name {
+  color: #FDD46B;
+}
+xml.tag.attribute.value {
+    color: #d6f48f; 
 }
 
 /* Styles */

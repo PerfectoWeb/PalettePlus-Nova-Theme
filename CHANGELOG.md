@@ -1,6 +1,13 @@
+## Version 1.3
+
+- Added theme for XML files
+- Corrected colors of braces into html attribute value
+- Corrected colors of variable html attributes
+- Corrected colors of html attributes
+
 ## Version 1.2
 
-- A different colors between JavaScript Core and own functions added
+- Different colors were added for JavaScript core and own functions.
 - Corrected the colors of JavaScript `null`
 - Corrected colors of css/scss variables
 
