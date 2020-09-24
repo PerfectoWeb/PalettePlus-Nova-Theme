@@ -175,10 +175,10 @@ identifier.type {
     font-weight: bold;
 }
 identifier.type.null {
-    color: #996FE3
+    color: #996FE3; /* !depricated */
 }
 identifier.type.value.null {
-    color: #DA4551
+    color: #DA4551; /* !depricated */
 }
 identifier.constant {
     /* unknown */
@@ -408,6 +408,9 @@ php.identifier.core.function {
 }
 php.keyword {	
 }
+php.value.null {
+    color: #a178e7;
+}
 
 
 /* Python */
@@ -417,6 +420,10 @@ python.identifier.argument.name {
 
 
 /* Terminal */
+terminal.black,
+terminal.bright-black {
+  color: #080c15;
+}
 terminal.red,
 terminal.bright-red {
   color: #F08261;

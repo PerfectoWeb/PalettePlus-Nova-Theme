@@ -1,3 +1,8 @@
+## Version 1.4
+
+- Added colors of PHP `null` value
+- Corrected terminal `black` color
+
 ## Version 1.3.3
 
 - Update contacts and repository
