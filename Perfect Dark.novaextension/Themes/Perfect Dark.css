@@ -401,10 +401,10 @@ javascript.value.null {
 
 /* PHP */
 php.identifier.function {
-    color: #FDD46B; /* own functions */
+    color: #65C8F0; /* #FDD46B own functions: not work */
 }
 php.identifier.core.function {
-    color: #65C8F0; /* core functions */
+    color: #65C8F0; /* #65C8F0 core functions */
 }
 php.keyword {	
 }

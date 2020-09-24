@@ -1,3 +1,7 @@
+## Version 1.4.1
+
+- Fix `php` functions and core functions colors
+
 ## Version 1.4
 
 - Added colors of PHP `null` value
