@@ -1,3 +1,8 @@
+## Version 1.4.2
+
+- Fix `terminal` colors
+- Added donation button
+
 ## Version 1.4.1
 
 - Fix `php` functions and core functions colors

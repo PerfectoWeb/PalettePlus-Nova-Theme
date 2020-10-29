@@ -422,7 +422,7 @@ python.identifier.argument.name {
 /* Terminal */
 terminal.black,
 terminal.bright-black {
-  color: #080c15;
+  color: #49536c;
 }
 terminal.red,
 terminal.bright-red {
@@ -450,5 +450,5 @@ terminal.bright-cyan {
 }
 terminal.white,
 terminal.bright-white {
-  color: #FFFFFF;
+  color: #dee9ee;
 }
