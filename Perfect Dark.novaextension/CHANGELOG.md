@@ -1,3 +1,7 @@
+## Version 1.4.3
+
+- Update donation info. Give me a cup of 🍺
+
 ## Version 1.4.2
 
 - Fix `terminal` colors

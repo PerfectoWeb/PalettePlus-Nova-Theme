@@ -4,12 +4,12 @@
   "vendor": "David Petrosyan",
   "organization": "PerfectoWeb",
   "description": "A dark theme for Nova with clean and cute colors.",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "categories": ["themes"],
   "repository": "https://github.com/PerfectoWeb/nova-perfectdark-theme",
   "homepage": "https://perfecto-web.com/?utm_campaign=open_source&utm_source=Nova&utm_medium=perfectdark_theme",
   "bugs": "https://github.com/PerfectoWeb/nova-perfectdark-theme/issues",
   "license": "MIT",
   "keywords": ["dark", "html", "php", "css", "javascript", "ssh"],
-  "funding": "https://paypal.me/perfectoweb"
+  "funding": "https://paypal.me/perfectoweb/5USD/"
 }
